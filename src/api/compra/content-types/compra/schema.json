@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "compras",
+  "info": {
+    "singularName": "compra",
+    "pluralName": "compras",
+    "displayName": "Compra",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Id_User": {
+      "type": "integer"
+    },
+    "Id_periodico": {
+      "type": "integer"
+    },
+    "Titulo": {
+      "type": "string"
+    },
+    "Fecha_compra": {
+      "type": "date"
+    },
+    "User": {
+      "type": "string"
+    }
+  }
+}

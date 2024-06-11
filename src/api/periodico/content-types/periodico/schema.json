@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "periodicos",
+  "info": {
+    "singularName": "periodico",
+    "pluralName": "periodicos",
+    "displayName": "Periodico"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "fecha": {
+      "type": "date"
+    },
+    "precio": {
+      "type": "biginteger"
+    },
+    "periodico": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
